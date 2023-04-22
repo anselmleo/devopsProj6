@@ -45,8 +45,14 @@ setup logical volumes like a pro
 - Step 23: Create a wordpress db (To enable wordpress application connection)
 - Step 24: Create a remote mysql user and assign privileges to the wordpress databases
 - Step 25: Test remote connection works
+
 <img width="486" alt="Screen Shot 2023-04-22 at 9 41 50 PM" src="https://user-images.githubusercontent.com/30025376/233807076-2bf5221e-63fc-47a9-934b-4cc4466dfbfe.png">
+
+- Step 26: Launch app by pasting public ip address of webserver on browser and /wordpress e.g: <public-ip-webserver>/wordpress
 
 <img width="1440" alt="Screen Shot 2023-04-22 at 9 52 38 PM" src="https://user-images.githubusercontent.com/30025376/233807134-96eaa111-3af0-4ac5-87b4-a55678707d09.png">
 
+- Step 27: If error connecting to database? Check wp-config.php file and confirm your database credentials match the actual remote db credentials
+
+<img width="1153" alt="Screen Shot 2023-04-22 at 10 01 27 PM" src="https://user-images.githubusercontent.com/30025376/233807314-156f7804-4a25-4a5d-86f0-315f2a767e7f.png">
 
